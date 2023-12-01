@@ -153,7 +153,7 @@ exec slack
 assign [class="Slack"] $ws3
 exec keepass2
 assign [class="KeePass"] $ws4
-exec firefox 
+exec firefox $HOME/Downloads/_OceanofPDF.com_Learning_Go_-_Jon_Bodner.pdf
 assign [class="firefox"] $ws5
 
 # reload the configuration file
