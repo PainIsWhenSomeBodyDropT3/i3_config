@@ -153,8 +153,11 @@ exec slack
 assign [class="Slack"] $ws3
 exec keepass2
 assign [class="KeePass"] $ws4
-exec firefox $HOME/Downloads/_OceanofPDF.com_Learning_Go_-_Jon_Bodner.pdf
+exec firefox "https://edu.anarcho-copy.org/Programming%20Languages/Go/Concurrency%20in%20Go.pdf" 
+exec firefox "~/Downloads/fullstack-react-book-r14.pdf"
 assign [class="firefox"] $ws5
+exec "~/Telegram/Telegram"
+assign [class="TelegramDesktop"] $ws8
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
